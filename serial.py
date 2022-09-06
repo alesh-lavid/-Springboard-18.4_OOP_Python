@@ -40,13 +40,3 @@ class SerialGenerator:
         """Resets serial number to start number
         """
         self.serial = self.start_number
-    
-
-
-serial = SerialGenerator(start=100)
-print(serial.generate())
-print(serial.generate())
-print(serial.generate())
-print(serial.generate())
-print(serial.reset())
-print(serial.generate())
